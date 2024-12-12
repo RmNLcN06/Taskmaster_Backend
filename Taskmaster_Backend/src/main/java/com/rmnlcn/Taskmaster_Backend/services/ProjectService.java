@@ -30,7 +30,7 @@ public class ProjectService {
         return projectRepository.save(project);
     }
 
-    public void deleteProject(Long id) {
+    public void deleteProjectById(Long id) {
         projectRepository.deleteById(id);
     }
 }
