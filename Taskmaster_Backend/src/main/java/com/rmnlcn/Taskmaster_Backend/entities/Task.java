@@ -25,5 +25,6 @@ public class Task {
     private Project project;
 
     public void setProject(Project project) {
+
     }
 }
