@@ -24,6 +24,8 @@ public class Task {
     @JsonBackReference
     private Project project;
 
+
+
     // Getter & Setter
 
     // Id
@@ -70,4 +72,9 @@ public class Task {
     public void setDueDate(LocalDate dueDate) {
         this.dueDate = dueDate;
     }
+
+    // Project
+    public Project getProject() { return project; }
+
+    public void setProject(Project project) {this.project = project; }
 }

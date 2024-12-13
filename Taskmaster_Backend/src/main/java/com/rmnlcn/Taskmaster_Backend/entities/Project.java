@@ -31,10 +31,8 @@ public class Project {
         task.setProject(null);
     }
 
-    public Collection<Object> getTasks() {
-    }
-
     // Getter & Setter
+
     // Id
     public Long getId() {
         return id;
@@ -60,5 +58,12 @@ public class Project {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    // Tasks
+    public List<Task> getTasks() { return tasks; }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
     }
 }
