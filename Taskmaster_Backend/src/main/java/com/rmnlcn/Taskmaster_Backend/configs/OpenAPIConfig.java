@@ -13,7 +13,7 @@ public class OpenAPIConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Task API")
+                        .title("Taskmaster API")
                         .version("1.0")
                         .description("API for managing projects and tasks."))
                 .addSecurityItem(new SecurityRequirement().addList("basicAuth"))
